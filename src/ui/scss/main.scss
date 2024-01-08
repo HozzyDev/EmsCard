@@ -1,0 +1,109 @@
+.documents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vh;
+    height: 33.3vh;
+    background: #fff;
+    border-radius: 1.1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.1vh;
+    zoom: .96;
+
+    &_header {
+        width: 100%;
+        height: 8.7vh;
+        border-radius: 1.1vh 1.1vh 0 0;
+        background: #C11F3C;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        gap: 0vh;
+
+        & h1 {
+            font-size: 1.8vh;
+            font-weight: 500;
+            margin-left: 1.6vh;
+        }
+
+        & h2 {
+            font-size: 2.7vh;
+            justify-content: flex-start;
+            font-weight: 700;
+            margin-top: -.6vh;
+            margin-left: 1.6vh;
+        }
+    }
+
+    &_section {
+        display: flex;
+        gap: 1.6vh;
+
+        &-avatar {
+            width: 14vh;
+            height: 16vh;
+            margin-left: 1.6vh;
+        }
+
+        &-avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: .7vh;
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: row;
+            gap: 3vh;
+            align-items: center;
+        }
+
+        &-info-counter {
+            display: flex;
+            flex-direction: column;
+            gap: .8vh;
+        }
+
+        &-info-count {
+            display: grid;
+        }
+
+        &-info-count a {
+            color: rgba(43, 43, 43, 0.50);
+            font-weight: 500;
+            letter-spacing: .15vh;
+            font-size: 1.8vh;
+        }
+
+        &-info-count p {
+            color: #343434;
+            font-weight: 600;
+            letter-spacing: .1vh;
+            font-size: 2.3vh;
+            margin-top: -.3vh;
+        }
+    }
+
+    &_footer {
+        display: flex;
+        flex-direction: column;
+        gap: .3vh;
+        margin-top: -3.6vh;
+        margin-left: 1.6vh;
+
+        & h5 {
+            color: rgba(43, 43, 43, 0.50);
+            font-weight: 600;
+            letter-spacing: .15vh;
+            font-size: 1.6vh;
+        }
+
+        & img {
+            width: 11vh;
+            margin-top: -2.9vh;
+        }
+    }
+}
